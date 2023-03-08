@@ -1,0 +1,77 @@
+body{
+    background-image:url('../images/la.jpg');
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.card{
+    background: white;
+    border-radius: 4px;
+    height: 85vh;
+    width: 80vh;
+    box-shadow:#3E9ABD;
+    flex-direction: column;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+    overflow: hidden;
+}
+.card * {
+    transition: all 0.2s ease-in-out;
+}
+
+@media only screen and  (min-width: 1000px) {
+    .card {
+        flex-direction: row-reverse;
+        
+    }    .card img.birthday {
+
+        width: 100%;
+        max-width: 50vw; 
+        max-height: unset;
+    }
+}
+    @media only screen and  (min-height: 640px) {
+        .card {
+            flex-direction: row-reverse;
+            
+        }
+        .card img.birthday {
+    
+            width: 100%;
+            max-width: 50vw;
+            max-height: unset;
+        }
+    }
+img.birthday {
+    max-height: 35vh;
+}
+.text {
+    padding: 1em;
+}
+muted {
+    opacity: 0.8;
+}
+.space {
+    height: 100px;
+}
+
+.button {
+    position: relative;
+    text-align: center;
+    width: 150px;
+    height: 50px;
+    padding: 10px;
+    font-size: 30px;
+    color:#3E9ABD ;
+}
+
+
+
+
+
+
+
